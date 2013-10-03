@@ -7,7 +7,7 @@
   "contributors" : [],
   "license": "MIT",
   "dependencies" : {
-    stylus": "~0.29.0"
+    "stylus": "~0.29.0"
   },
   "repository" : {"type": "git", "url": "git://github.com/vinspee/stylus-modular-scale.git"},
   "main" : "modular-scale.styl",
