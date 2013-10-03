@@ -6,10 +6,10 @@
   "author" : "Vince Speelman <v@vinspee.me>",
   "contributors" : [],
   "license": "MIT",
-  "dependencies" : {
+  "devDependencies" : {
     "stylus": "~0.29.0"
   },
   "repository" : {"type": "git", "url": "git://github.com/vinspee/stylus-modular-scale.git"},
-  "main" : "modular-scale.styl",
+  "main" : "modular-scale.js",
   "version" : "0.0.1"
 }
