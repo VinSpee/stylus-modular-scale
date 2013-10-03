@@ -18,14 +18,12 @@ minor_third = 6 / 5.0
 major_second = 9 / 8.0
 minor_second = 16 / 15.0
 
-// Set your ratio
-//modular_scale = fifth
+// Set the default ratio
+modular_scale = fifth
 
-ms(step = 0, ratio = modular_scale)
-    step = step + 1
-    return (step * ratio * 10)px
-
-msem(step = 0, ratio = modular_scale)
-    step = step + 1
-    base-font-size return (step * ratio * 10 / 16) if base-font-size
-    return (step * ratio * 10 / 16)em
+ms(step = 0, unit = px, context = base-font-size, ratio = modular_scale)
+  //base size should be ms(0)
+  step = step + 1
+  //use the base-font-size if it exists
+  return (step * ratio * 10)unit if unit is 'px'
+  return (step * ratio * 10) / context unit if unit is 'em'

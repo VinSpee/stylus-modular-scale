@@ -11,5 +11,5 @@
   },
   "repository" : {"type": "git", "url": "git://github.com/vinspee/stylus-modular-scale.git"},
   "main" : "modular-scale.js",
-  "version" : "0.0.1"
+  "version" : "0.0.3"
 }
